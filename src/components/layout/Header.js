@@ -35,7 +35,7 @@ const Header = () => {
           className={navExpanded ? "nav-bar-links expanded" : "nav-bar-links"}
           onClick={() => setNavExpanded(navExpanded)}
         >
-          {navLinks.map((navLinks, index) => (
+          {navLinks.map(( index) => (
             <li key={index}>
               <Link
                 className={pathName === navLinks.path ? "current-location" : ""}
