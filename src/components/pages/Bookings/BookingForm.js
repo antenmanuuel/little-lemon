@@ -127,3 +127,5 @@ const BookingForm = ({ availableTimes, onDateChange, submitData }) => {
     </form>
   );
 };
+
+export default BookingForm;
