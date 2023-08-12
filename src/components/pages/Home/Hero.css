@@ -19,10 +19,12 @@
 
 .hero-information h2 {
   color: #ffffff;
+  margin-top: 1.5rem;
 }
 
 .hero-information p {
   color: #ffffff;
+  margin-top: 1.5rem;
 }
 
 .hero-information .button-primary {
