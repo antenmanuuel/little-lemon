@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import pages from "./utils/pages";
+import links from "./utils/links";
 import Layout from "./components/layout/Layout";
 import Home from "./components/pages/Home";
 import Bookings from "./components/pages/Bookings";
@@ -12,26 +12,26 @@ const App = () => {
     <>
       <Layout>
         <Routes>
-          <Route path={pages.get("home").path} element={<Home />} />
+          <Route path={links.get("home").path} element={<Home />} />
           <Route
-            path={pages.get("about").path}
+            path={links.get("about").path}
             element={<UnderConstruction />}
           />
           <Route
-            path={pages.get("menu").path}
+            path={links.get("menu").path}
             element={<UnderConstruction />}
           />
-          <Route path={pages.get("bookings").path} element={<Bookings />} />
+          <Route path={links.get("bookings").path} element={<Bookings />} />
           <Route
-            path={pages.get("confirmedBooking").path}
+            path={links.get("confirmedBooking").path}
             element={<ConfirmedBooking />}
           />
           <Route
-            path={pages.get("orderOnline").path}
+            path={links.get("orderOnline").path}
             element={<UnderConstruction />}
           />
           <Route
-            path={pages.get("login").path}
+            path={links.get("login").path}
             element={<UnderConstruction />}
           />
           <Route path="*" element={<NotFound />} />

@@ -37,6 +37,7 @@
   
   .meal-card-header h1 {
     font-size: 1.15rem;
+    font-weight: bold;
   }
   
   .meal-card-header span {
