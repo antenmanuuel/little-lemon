@@ -23,6 +23,7 @@
     "start": "vite",
     "build": "vite build",
     "serve": "vite preview",
+    "lint": "eslint --ext=.jsx,.js,.tsx,.ts",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
