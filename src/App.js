@@ -6,6 +6,7 @@ import Bookings from "./components/pages/Bookings";
 import ConfirmedBooking from "./components/pages/Bookings/ConfirmedBooking";
 import NotFound from "./components/pages/NotFound";
 import UnderConstruction from "./components/pages/UnderConstruction";
+import Menu from "./components/pages/Menu";
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
           />
           <Route
             path={links.get("menu").path}
-            element={<UnderConstruction />}
+            element={<Menu />}
           />
           <Route path={links.get("bookings").path} element={<Bookings />} />
           <Route
