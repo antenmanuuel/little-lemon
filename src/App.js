@@ -7,6 +7,7 @@ import ConfirmedBooking from "./components/pages/Bookings/ConfirmedBooking";
 import NotFound from "./components/pages/NotFound";
 import UnderConstruction from "./components/pages/UnderConstruction";
 import Menu from "./components/pages/Menu";
+import About from "./components/pages/About";
 
 const App = () => {
   return (
@@ -16,7 +17,7 @@ const App = () => {
           <Route path={links.get("home").path} element={<Home />} />
           <Route
             path={links.get("about").path}
-            element={<UnderConstruction />}
+            element={<About />}
           />
           <Route
             path={links.get("menu").path}
