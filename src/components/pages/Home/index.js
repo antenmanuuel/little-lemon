@@ -1,6 +1,5 @@
 import WeekSpecials from './WeekSpecials';
 import Testimonials from './Testimonials';
-import OurStory from './OurStory';
 import Hero from './Hero';
 
 const Home = () => {
@@ -9,7 +8,7 @@ const Home = () => {
             <Hero />
             <WeekSpecials />
             <Testimonials />
-            <OurStory />
+            
         </>
     );
 }
