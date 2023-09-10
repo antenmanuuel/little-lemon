@@ -28,3 +28,6 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## License
+This project is licensed under the MIT License. See `LICENSE.md` for details.
